@@ -1,9 +1,9 @@
-import leetcode.solution.easy.no13.No13;
+import leetcode.solution.easy.no14.No14;
 
 public class Main {
     public static void main(String[] args) {
-        No13 solution = new No13();
-        System.out.println(String.format("%s", solution.romanToInt("MCMXCIV")));
+        No14 solution = new No14();
+        System.out.println(String.format("%s", solution.longestCommonPrefix(new String[]{"reflower","flow","flight"})));
     }
 }
 
